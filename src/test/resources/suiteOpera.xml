@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-class Suite Opera" parallel="classes" thread-count="2" >
+    <test name="Opera">
+        <parameter name="browser" value="opera"/>
+        <classes>
+            <class name="tests.BBCFolderTest"/>
+            <class name="tests.BBCHeaderTest"/>
+        </classes>
+    </test>
+</suite>
